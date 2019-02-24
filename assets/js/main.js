@@ -65,27 +65,12 @@ $.post("email.php", string,
 );
 }
 
-// Resize our iframe with its contents heights
-function autoResize(id){
-  var newHeight = $("#resume-iframe")[0].contentWindow.document.body.scrollHeight + 15;
-  $("#resume-iframe").attr("height", newHeight + "px");
-}
-
-// Reset iframe height so it doesn't throw off the height of the rest of the page
-function resetiFrame(id){
-  $("#resume-iframe").attr("height", "0");
-}
-
 $(window).on('hashchange', function() {
 if (window.location.hash != "") {
   $("#home").removeClass("show");
-  // if (window.location.hash == '#about-me') showRandQuote();
-  if (window.location.hash == '#resume') autoResize();
-  else resetiFrame();
 } else {
   showRandQuote();
   $("#home").addClass("show");
-  resetiFrame();
 }
 });
 
@@ -117,7 +102,5 @@ $(document).ready(function() {
 
   if (window.location.hash == "") {
     $("#home").addClass("show");
-  } else if (window.location.hash == "#resume") {
-    autoResize();
   }
 });

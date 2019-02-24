@@ -60,8 +60,8 @@ iframe {border: 0;}
 #contact {height: 100%; width: 18%; width: calc(20% - 20px); box-shadow: inset 3px 0px 7px -3px; right: 0;}
 #contact-list {list-style-type: none; padding: 10px;}
 #contact-list li {display: block; text-align: center; padding: 10px 0;}
-#contact-list .contact-icon {width: 80px; height: 80px; opacity: .8; transition: all .2s ease-in-out;}
-#contact-list .contact-icon:hover {opacity: 1;}
+#contact-list li a {font-size: 100px; color: #000; opacity: .75; transition: opacity .2s ease-in-out;}
+#contact-list li a:hover {opacity: 1;}
 
 #content #about-me .section-wrap {padding: 0 10px 0 4px;}
 .about-list {text-align: left; font-size: 20px; line-height: 25px; margin-bottom: 50px;}
