@@ -87,8 +87,10 @@ $(document).ready(function() {
     }
   });
 
-  $.getJSON("ajax/get_latest_blog_post.php", function(data) {
-    $(".latest-post").html('<a href="' + data[0]['link'] + '">' + data[0]['title']['rendered'] + '</a>');
+  fetch("https://brillicity.com/wp-json/wp/v2/posts?page=1&per_page=1").then((res) => {
+    return res.json();
+  }).then((json) => {
+    $(".latest-post").html('<a href="' + json[0]['link'] + '">' + json[0]['title']['rendered'] + '</a>');
   });
 
   // Highlight inset project picture

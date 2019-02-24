@@ -1,6 +1,16 @@
 {
   "menu": {
-    "description": "Hello! My name is Tomer. I am a developer, problem-solver, and all-around cool guy (call me biased..). You should take a look around and check out some of my projects! Feel free to drop me a line."
+    "description": "Hello! My name is Tomer. I am a developer, problem-solver, and all-around cool guy (call me biased..). You should take a look around and check out some of my projects! Feel free to drop me a line.",
+    "icons": [
+      {
+        "title": "Proud NCSU Alum. Go Pack!",
+        "img": "/assets/img/ncsu.png"
+      },
+      {
+        "title": "Hodgkin's Lymphoma Cancer Ribbon",
+        "img": "/assets/img/hodgkins.png"
+      }
+    ]
   },
   "main": {
     "general": {

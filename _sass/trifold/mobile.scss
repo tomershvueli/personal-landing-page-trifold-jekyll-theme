@@ -1,0 +1,37 @@
+@media (max-width: 690px) {
+  html {width: 100%;}
+  body {width: 100%; overflow: auto;}
+
+  section {position: static;}
+
+  #page-wrap > section {width: auto; height: auto; padding-right: 0; margin: 0 8px; border-bottom: 4px solid #eee;}
+  #page-wrap > section#contact {border-bottom: 0;}
+  #page-wrap section section {height: auto; position: relative; border-bottom: 2px solid #eee; min-height: 100px;}
+
+  #menu {padding: 0; box-shadow: none; -webkit-box-shadow: none;}
+  #menu h1 {font-size: 38px;}
+  #menu #section-list {display: none;}
+
+  #content #home {margin-top: 25px;}
+  #content section {opacity: 1; margin: 0;}
+  #content section h2 {padding: 6px 0;}
+  #content section .section-wrap {height: auto;}
+  #content .about-list {margin-left: 0; padding-left: 25px;}
+  #content #resume {padding: 80px 0;}
+  #home.show {display: block; position: static; opacity: 1; margin-top: 40px;}
+  #home img {width: 80%; height: 80%;}
+  .project-list li .info {position: static;}
+  .project-list li .desc {display: none;}
+  .project-list li .thumb {opacity: 1;}
+  .project-list li .toggle {bottom: 0; right: 0;}
+
+  #now p {line-height: 26px;}
+
+  #contact {box-shadow: none;}
+  #contact-list {overflow: hidden;}
+  #contact-list .contact-icon {opacity: 1;}
+  #contact-list li {display: inline-block; float: left; width: 50%;}
+
+  #modal-window {width: auto;}
+  .form-list textarea {width: auto;}
+}

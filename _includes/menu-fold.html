@@ -4,16 +4,18 @@
     <p>
       {{ site.data.content.menu.description }}
     <p>
+    {% if site.data.content.menu.icons %}
     <div class="center">
-      <img src="img/ncsu.png" alt="Proud NCSU Alum. Go Pack!" height="50" />
-      <img src="img/hodgkins.png" alt="Hodgkin's Lymphoma Cancer Ribbon" height="50" />
+      {% for icon in site.data.content.menu.icons %}
+        <img src="{{ icon.img }}" alt="{{ icon.title }}" height="50" />
+      {% endfor %}
     </div>
+    {% endif %}
   </div>
   <ul id="section-list">
     <li><a href="#now">now</a></li>
     <li><a href="#resume">resume</a></li>
     <li><a href="#projects">projects</a></li>
     <li><a href="#freelance">freelance</a></li>
-    <!--<li><a href="#contributions">contributions</a></li>-->
   </ul>
 </section>
