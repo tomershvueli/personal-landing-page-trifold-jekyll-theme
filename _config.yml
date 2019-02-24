@@ -9,10 +9,13 @@ plugins:
   - liquid-md5
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+first_name:          'Tomer'
+last_name:           'Shvueli'
 name:                'Tomer Shvueli'
 title:		           'Tomer Shvueli'
-description:	       'Follow Tomer and Michelle on their digital nomad journey'
+description:	       "Tomer Shvueli's Landing Page"
 email:               'tomer@shvueli.com'
+twitter_handle:      '@thetomester13'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

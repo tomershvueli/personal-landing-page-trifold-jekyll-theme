@@ -1,24 +1,24 @@
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="This is Tomer Shvueli's landing page." />
+  <meta name="description" content="{{ site.description }}" />
   <meta name="keyword" content="{{ site.name }}, landing page, resume" />
   <meta name="author" content="{{ site.name }}" />
 
-  <meta property="og:site_name" content="Tomer Shvueli's Landing Page">
-  <meta property="og:title" content="Tomer Shvueli's Landing Page">
+  <meta property="og:site_name" content="{{ site.name }}'s Landing Page">
+  <meta property="og:title" content="{{ site.name }}'s Landing Page">
   <meta property="og:url" content="http://tomer.shvueli.com/">
-  <meta property="og:description" content="This is Tomer Shvueli's landing page.">
+  <meta property="og:description" content="{{ site.description }}">
   <meta property="og:image" content="http://gravatar.com/avatar/{{ site.email | downcase | md5 }}?s=350">
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@thetomester13" />
-  <meta name="twitter:title" content="Tomer Shvueli's Landing Page" />
-  <meta name="twitter:description" content="This is Tomer Shvueli's landing page." />
+  <meta name="twitter:site" content="{{ site.twitter_handle }}" />
+  <meta name="twitter:title" content="{{ site.name }}'s Landing Page" />
+  <meta name="twitter:description" content="{{ site.description }}" />
   <meta name="twitter:image" content="http://gravatar.com/avatar/{{ site.email | downcase | md5 }}?s=350" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>{{ site.name }}'s Landing Page</title>
+  <title>{{ site.first_name }}'s Landing Page</title>
 
   <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
 
