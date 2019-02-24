@@ -1,0 +1,165 @@
+{
+  "menu": {
+    "description": "Hello! My name is Tomer. I am a developer, problem-solver, and all-around cool guy (call me biased..). You should take a look around and check out some of my projects! Feel free to drop me a line."
+  },
+  "main": {
+    "general": {
+      "title": "A Few Facts About Me",
+      "list": [
+        "I am fluent in English and Hebrew - שלום! Though I'm pretty sure my mother tongue is PHP.",
+        "I'm an entrepreneur; besides starting my own company (visit <a href=\"#projects\">Projects</a> for more details), I've attended Triangle Startup Weekend thrice (and won 3rd place and people's choice at Triad SW!) and volunteered at Triangle Entrepreneurship Week.",
+        "I was on the front page of a newspaper! <a href=\"http://www.technicianonline.com/news/article_726a9d24-bae4-11e3-a7a7-001a4bcf6878.html\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">It's true</a>!",
+        "I am a certified <span class=\"strike-through\">football</span> soccer referee.",
+        "I look both ways before crossing a one-way street.",
+        "My favorite color is <span class=\"green\">green</span>, and has been since I first watched the movie Flubber."
+      ],
+      "personal_quote": "I love software development because it gives me the opportunity to develop unique and creative solutions to problems."
+    },
+    "now": {
+      "title": "What Am I Up To Right Now?",
+      "list": [
+        "software developer and working full time at <a href=\"https://www.ebsco.com/\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">EBSCO</a>",
+        "listening to self-help and business audiobooks to keep absorbing knowledge",
+        "working on <a href=\"#projects\">personal side projects</a>",
+        "scoping out trends in the tech industry and aligning myself in favorable positions",
+        "looking for opportunities to travel to new places and experience new things"
+      ]
+    },
+    "resume": {
+      "title": "Tomer's Always Up-to-Date Resume",
+      "url": "https://www.dropbox.com/s/qo9owctsnfxfdda/Tomer%20-%20Resume.pdf?dl=0"
+    },
+    "projects": {
+      "top_level": [
+        {
+          "title": "My Projects",
+          "sub_level": [
+            {
+              "title": "Web",
+              "list": [
+                {
+                  "name": "Brillicity",
+                  "img": "/assets/img/project-brillicity.png",
+                  "link": "http://brillicity.com?ref=personal_homepage",
+                  "short_description": "A programmer's obligatory blog.",
+                  "long_description": "A simple Wordpress blog where I post about my new releases, products in the pipeline and my overall thoughts."
+                },
+                {
+                  "name": "BetterMeta",
+                  "img": "/assets/img/project-bettermeta.png",
+                  "link": "http://bettermeta.io?ref=personal_homepage",
+                  "short_description": "A simple API to return the meta tags of any site in JSON format. ",
+                  "long_description": "<a href=\"http://brillicity.com/better-meta\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">Read more about BetterMeta and the story behind it</a>. "
+                },
+                {
+                  "name": "GroupMailer",
+                  "img": "/assets/img/project-groupmailer.png",
+                  "link": "http://groupmailer.net?ref=personal_homepage",
+                  "short_description": "Send personalized, yet templated emails without a hitch. ",
+                  "long_description": "The idea for GroupMailer was born while I working as a TA at NC State University: An automated way to send out grades to students without copious amounts of copying and pasting from Excel sheets. "
+                },
+                {
+                  "name": "ShowBallot",
+                  "img": "/assets/img/project-showballot.png",
+                  "link": "http://showballot.com?ref=personal_homepage",
+                  "short_description": "Vote on the songs you want to hear at live shows.",
+                  "long_description": "ne are the days of your favorite artist not playing the songs <em>you</em> want to hear at their concerts. Introducing ShowBallot!"
+                },
+                {
+                  "name": "Superbetize",
+                  "img": "/assets/img/project-superbetize.png",
+                  "link": "http://superbetize.com?ref=personal_homepage",
+                  "short_description": "Your grocery shopping, optimized.",
+                  "long_description": "mobile-centered site to help speed up your grocery shopping trip. Paste in your list, and this site will categorize everything for you."
+                },
+                {
+                  "name": "Homes, Sweet Homes CMS",
+                  "img": "/assets/img/project-hsh-cms.png",
+                  "link": "http://brillicity.com/hsh_cms?ref=personal_homepage",
+                  "short_description": "A content management system for managing homes.",
+                  "long_description": "A custom-built PHP content management system for managing your investment rental homes."
+                },
+                {
+                  "name": "Glomerate.Me",
+                  "img": "/assets/img/project-glomerateme.png",
+                  "link": "http://glomerateme.github.io/?ref=personal_homepage",
+                  "short_description": "Exchange info...blindfolded.",
+                  "long_description": "<a href=\"https://developers.google.com/apps-script/\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">Google Apps Script</a> for Gmail built during a <a href=\"http://hacknc.com/\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">HackNC</a> hackathon. "
+                },
+                {
+                  "name": "FCCheck",
+                  "img": "/assets/img/project-fccheck.png",
+                  "link": "http://brillicity.com/fccheck/?ref=personal_homepage",
+                  "short_description": "A bookmarklet handy to radio DJ's.",
+                  "long_description": "A bookmarklet that will highlight all 7 of the FCC's dirty words on any given web page."
+                },
+                {
+                  "name": "BaDumChh",
+                  "img": "/assets/img/project-badumchh.png",
+                  "link": "http://badumchh.com?ref=personal_homepage",
+                  "short_description": "A daily one-liner joke text service. ",
+                  "long_description": "A texting service that is guaranteed to put a smile on your face, once a day. <a href=\"http://brillicity.com/badumchh-app\" class=\"external\" target=\"_blank\" rel=\"noopener noreferrer\">Read more about BaDumChh and the story behind it</a>."
+                }
+              ]
+            },
+            {
+              "title": "Apps",
+              "list": []
+            }
+          ]
+        },
+        {
+          "title": "I've Been Known to Dabble...",
+          "sub_level": [
+            {
+              "title": "Web",
+              "list": []
+            },
+            {
+              "title": "Apps",
+              "list": []
+            }
+          ]
+        }
+      ]
+    },
+    "freelance": {
+      "title": "My Freelance Portfolio",
+      "list": [
+        {
+          "name": "NC Student Rentals",
+          "img": "/assets/img/project-ncsr.png",
+          "link": "http://ncstudentrentals.com",
+          "description": "Run on top of my Homes, Sweet Homes CMS"
+        },{
+          "name": "Idle Tools Corp",
+          "img": "/assets/img/project-idle-tools.png",
+          "link": "http://idletoolscorp.com",
+          "description": "A registered Salesforce.com consulting partner based in Raleigh, NC."
+        }
+      ]
+    }
+  },
+  "contact": [
+    {
+      "type": "Email",
+      "link": "mailto:tomer@shvueli.com?Subject=Hey, Tomer!",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "type": "Blog",
+      "link": "http://brillicity.com",
+      "icon": "fab fa-wordpress"
+    },
+    {
+      "type": "Github",
+      "link": "https://github.com/tomershvueli",
+      "icon": "fab fa-github"
+    },
+    {
+      "type": "LinkedIn",
+      "link": "https://www.linkedin.com/in/tomershvueli",
+      "icon": "fab fa-linkedin"
+    }
+  ]
+}

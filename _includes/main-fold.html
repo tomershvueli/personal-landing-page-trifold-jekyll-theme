@@ -1,0 +1,123 @@
+<section id="content">
+  {% if site.data.content.main.general %}
+  <section id="home">
+    <img src="http://gravatar.com/avatar/{{ site.email | downcase | md5 }}?s=350" alt="Me." />
+    <h2>{{ site.data.content.main.general.title | default: "A Few Facts About Me"}}</h2>
+    <div class="section-wrap">
+      <ul class="about-list">
+        {% for item in site.data.content.main.general.list %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+
+      <span id="personal-quote"><em>{{ site.data.content.main.general.personal_quote}}</em></span>
+      <h4 id="quote"></h4>
+      <h5 id="quote-author"></h5>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.content.main.now %}
+  <section id="now">
+    <h2>{{ site.data.content.main.now.title | default: "What Am I Up To Right Now?" }}</h2>
+    <ul class="about-list">
+      {% for item in site.data.content.main.now.list %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <p><strong>Last updated: </strong> July 26th, 2017.</p>
+    <div class="latest-post-wrapper">For a more detailed explanation of what's going on in my life right now, read my latest blog post: <span class="latest-post">...</span>.</div>
+    <p>This page was inspired by <a href="https://sivers.org/nowff" class="external" target="_blank" rel="noopener noreferrer">Derek Sivers</a> and is featured on <a href="http://nownownow.com" class="external" target="_blank" rel="noopener noreferrer">NowNowNow.com</a>.</p>
+  </section>
+  {% endif %}
+
+  {% if site.data.content.main.resume %}
+  <section id="resume">
+    <h2><a href="{{ site.data.content.main.resume.url }}" class="external" target="_blank">{{ site.data.content.main.resume.title | default: "My Always Up-to-Date Resume" }}</a></h2>
+  </section>
+  {% endif %}
+
+  {% if site.data.content.main.projects %}
+  <section id="projects">
+    {% for top_level in site.data.content.main.projects.top_level %}
+      <h2>{{ top_level.title | default: "Projects" }}</h2>
+      <div class="section-wrap">
+        {% for sub_level in top_level.sub_level %}
+        <h3>{{ sub_level.title }}</h3>
+        <ul class="project-list">
+          {% for project in sub_level.list %}
+            <li>
+              <div class="main">
+                <img src="{{ project.img }}" class="thumb" alt="{{ project.name }}" />
+                <div class="info">
+                  <span class="title"><a href="{{ project.link }}" class="external" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></span>
+                  <span class="desc">{{ project.short_description }}</span>
+                </div>
+                <span class="toggle">+</span>
+              </div>
+              <div class="extra">
+                <p>{{ project.long_description }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if site.data.content.main.freelance %}
+  <section id="freelance">
+    <h2>{{ site.data.content.main.freelance.title | default: "My Freelance Portfolio" }}</h2>
+    <div class="section-wrap">
+      <ul class="project-list">
+        {% for project in site.data.content.main.freelance.list %}
+        <li>
+          <div class="main">
+            <img src="{{ project.img }}" class="thumb" alt="{{ project.name }}" />
+            <div class="info">
+              <span class="title"><a href="{{ project.link }}" class="external" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></span>
+              <span class="desc">{{ project.description }}</span>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
+
+  <!--<section id="contributions">
+    <h2>Projects I Contributed to In Some Way</h2>
+    <div class="section-wrap">
+      <ul class="project-list">
+        <li>
+          <div class="main">
+            <img src="img/project-magnolia.png" class="thumb" alt="Magnolia" />
+            <div class="info">
+              <span class="title"><a href="https://magnolia.lib.ncsu.edu" class="external" target="_blank" rel="noopener noreferrer">Magnolia</a></span>
+            </div>
+            <span class="toggle">+</span>
+          </div>
+          <div class="extra">
+            <p>A web app to simplify use of 'high tech spaces' in Hunt Library at NC State University.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="main">
+            <img src="img/project-magnolia.png" class="thumb" alt="Magnolia" />
+            <div class="info">
+              <span class="title"><a href="https://magnolia.lib.ncsu.edu" class="external" target="_blank" rel="noopener noreferrer">Magnolia</a></span>
+            </div>
+            <span class="toggle">+</span>
+          </div>
+          <div class="extra">
+            <p>A web app to simplify use of 'high tech spaces' in Hunt Library at NC State University.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>-->
+</section>

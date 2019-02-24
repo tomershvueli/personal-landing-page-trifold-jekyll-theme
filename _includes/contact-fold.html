@@ -1,0 +1,9 @@
+{% if site.data.content.contact %}
+  <section id="contact">
+    <ul id="contact-list">
+      {% for item in site.data.content.contact %}
+        <li><a href="{{ item.link }}" aria-label="{{ item.type }}"><i class="{{ item.icon }}"></i></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

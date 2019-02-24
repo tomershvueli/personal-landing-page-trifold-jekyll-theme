@@ -1,0 +1,19 @@
+# Site Build Settings
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+#plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:
+  - liquid-md5
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+name:                'Tomer Shvueli'
+title:		           'Tomer Shvueli'
+description:	       'Follow Tomer and Michelle on their digital nomad journey'
+email:               'tomer@shvueli.com'
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
